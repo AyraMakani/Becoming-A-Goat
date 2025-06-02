@@ -1,0 +1,201 @@
+/*css for Becoming a GOAT*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Bubbles&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background: linear-gradient(135deg, #fcd3f4, #c4f1f9);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #fff0f6;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-family: 'Rubik Bubbles', cursive;
+  color: #ff69b4;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #663399;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.feature {
+  background-color: #fff8fc;
+  margin: 20px auto;
+  padding: 1rem;
+  border: 2px dashed #ffb6c1;
+  border-radius: 20px;
+  max-width: 600px;
+}
+
+button {
+  background-color: #ffe6fa;
+  border: 2px solid #ff69b4;
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ffccf9;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background-color: #f0e6ff;
+  padding: 1rem;
+  padding-top: 5rem;
+  font-size: 0.8rem;
+}
+
+/* planner */
+.planner-nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.planner-section {
+  display: none;
+}
+
+.planner-section.active {
+  display: block;
+}
+
+.planner-gif {
+  padding-top: 2rem;;
+  width: 300px;
+  max-width: 90%;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 10px;
+ }
+
+
+/*Planner subpages*/
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 1rem;
+}
+
+td {
+  vertical-align: top;
+  background-color: #fff8fc;
+  border: 2px dashed #ffb6c1;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 50%;
+}
+
+textarea {
+  width: 80%;
+  min-height: 100px;
+  border: 2px solid #ffccf9;
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-family: inherit;
+  resize: vertical;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 0.5rem;
+  font-family: inherit;
+  border-radius: 8px;
+  border: 2px solid #ffccf9;
+  margin-bottom: 0.5rem;
+}
+
+::placeholder {
+  color: #aaa;
+  opacity: 1;
+}
+
+h3 {
+  color: #ff69b4;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+p{
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.affirmation-section {
+  margin: 2rem auto;
+}
+
+#affirmationDisplay {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #663399;
+  padding: 1rem;
+  background-color: #fff0f6;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.playlist {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.playlist img {
+  width: 200px;   
+  height: 200px;
+  max-width: 50%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+
+
+.playlist-content {
+  flex: 1;
+  text-align: left;
+}
+
+.playlist:nth-child(even) {
+  flex-direction: row-reverse;
+}

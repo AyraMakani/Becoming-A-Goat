@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro & Stopwatch | Becoming a GOAT</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body style="padding-bottom: 3rem;">
+  <header>
+    <h1>Lock-in Brother</h1>
+    <h3>───── ⋆⋅☆⋅⋆ ─────</h3>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="planner/MyPlanner.html">My Planner</a></li>
+        <li><a href="timer.html">Lock-in Timer</a></li>
+        <li><a href="moody.html">Moody</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="feature">
+      <h2>Pomodoro Timer</h2>
+      <p id="pomodoroDisplay">25:00</p>
+      <button onclick="startPomodoro()">Start Pomodoro</button>
+      <button onclick="startBreak()">Start 5-min Break</button>
+      <button onclick="stopTimers()">Stop</button>
+      <button onclick="resetPomodoroAndBreak()">Reset All</button>
+
+    </section>
+    <section class="feature">
+      <h2>Stopwatch</h2>
+      <p id="stopwatchDisplay">00:00</p>
+      <button onclick="startStopwatch()">Start</button>
+      <button onclick="stopStopwatch()">Stop</button>
+      <button onclick="resetStopwatch()">Reset</button>
+    </section>
+  </main>
+
+
+</body>
+</html>
